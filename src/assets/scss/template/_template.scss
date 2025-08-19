@@ -1,0 +1,29 @@
+.header {
+  background: red;
+  background-color: red;
+
+  .columns {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+    h1 {
+      color: white;
+    }
+  }
+}
+
+.footer {
+  background: black;
+  background-color: black;
+
+  .footer-container {
+    background: black;
+    background-color: black;
+  }
+
+  a {
+    color: red;
+  }
+}
