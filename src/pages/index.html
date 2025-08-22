@@ -1,12 +1,13 @@
 ---
-layout: index-layout
-subject: My Email Templates
+layout: promotional
+subject: 70% Off On Labor Day
+percentage: 70
 ---
 
 <container>
   <row class="collapse header">
     <columns small="12" large="12">
-      <h1 class="text-center">home</h1>
+      <h1 class="text-center">{{ subject }}</h1>
     </columns>
   </row>
   <row class="collapse menu">
@@ -37,25 +38,9 @@ subject: My Email Templates
   <spacer size="100"></spacer>
   <row>
     <columns small="6" large="12" class="small-offset-6">
-      <h4>shop</h4>
+      <h4>shop for {{percentage}}% Off</h4>
       <spacer size="40"></spacer>
       <h4>img</h4>
     </columns>
   </row>
 </container>
-<wrapper class="footer">
-  <container class="footer-container">
-    <row>
-      <columns></columns>
-      <columns small="12" large="12">
-        <center>
-          <a href="#">link</a>
-          <a href="#">link</a>
-          <a href="#">link</a>
-          <a href="#">link</a>
-        </center>
-      </columns>
-      <columns></columns>
-    </row>
-  </container>
-</wrapper>
