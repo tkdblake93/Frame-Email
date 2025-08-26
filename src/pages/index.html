@@ -7,7 +7,7 @@ percentage: 70
 <container>
   <row class="collapse header">
     <columns small="12" large="12">
-      <h1 class="text-center">{{ subject }}</h1>
+      <h1 class="text-center">{{ laborDay.title }}</h1>
     </columns>
   </row>
   <row class="collapse menu">
@@ -25,16 +25,20 @@ percentage: 70
   <row>
     <columns small="12" large="12">home</columns>
   </row>
+  {{#each laborDay.products}}
   <row class="collapse">
     <columns small="6" large="6" valign="middle">
-      <h2 class="text-center">Goku The Super Saiyan</h2>
+      <h2 class="text-center">{{title}}</h2>
     </columns>
     <columns small="6" large="6">
       <center>
-        <img src="../assets/img/Goku_arrives_colored.png" alt="Goku arrives colored" />
+        <a href="{{product_url}}" rel="nofollow noopener noreferrer" target="_blank">
+          <img src="{{image_url}}" alt="{{image_url}}" />
+        </a>
       </center>
     </columns>
   </row>
+  {{/each}}
   <spacer size="100"></spacer>
   <row>
     <columns small="6" large="12" class="small-offset-6">
