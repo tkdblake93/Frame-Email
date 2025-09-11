@@ -6,8 +6,8 @@ body,
 }
 
 .header {
-  background: #ff690f;
-  background-color: #ff690f;
+  background: $primary-color;
+  background-color: $primary-color;
 
   .columns {
     padding-bottom: 20px;
@@ -58,6 +58,78 @@ body,
       width: 1px;
       background: #ff690f;
       background-color: #ff690f;
+    }
+  }
+}
+
+.deal_of_day {
+  background: #13191F;
+  background-color: #13191F;
+
+  .columns {
+    th {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+  }
+
+  img {
+    padding-bottom: 20px;
+  }
+
+  h2 {
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  p {
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  span {
+    font-weight: 600;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+
+    &.save_amount {
+      font-size: 14px;
+
+    }
+
+    &.tiny_info {
+      font-size: 10px;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+
+    &.price {
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+  }
+
+  .button {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+
+    &:hover {
+      color: $primary-color;
     }
   }
 }
