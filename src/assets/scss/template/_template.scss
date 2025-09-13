@@ -262,7 +262,7 @@ body,
   background-color: #222d37;
 
   &>tbody>tr>th {
-    padding-bottom: 30px !important;
+    padding-bottom: 25px !important;
     padding-top: 30px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
@@ -270,9 +270,12 @@ body,
 
   th {
     padding-bottom: 0;
+    padding-top: 0;
   }
 
-  .logo_circle {
+  .circle-logo {
+    display: block;
+    margin: 0 auto;
     height: 40px;
     width: 40px;
   }
@@ -281,12 +284,14 @@ body,
     display: block;
     font-size: 14px;
     font-weight: 700;
+    hyphens: none;
   }
 
   .info {
     display: block;
     font-size: 12px;
     font-weight: 900;
+    hyphens: none;
   }
 
   .info-section>table>tbody>tr>th {
@@ -297,6 +302,10 @@ body,
   .store-logos {
     padding-left: 10px !important;
     padding-right: 25px !important;
+
+    &>table>tbody>tr>th>table>tbody>tr>th {
+      padding-bottom: 5px;
+    }
 
     img {
       display: block;
