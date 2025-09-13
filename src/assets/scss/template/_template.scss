@@ -3,6 +3,7 @@ body,
 .body {
   background: #e4e5ea;
   background-color: #e4e5ea;
+  padding-bottom: 300px;
 }
 
 .header {
@@ -252,6 +253,63 @@ body,
         text-align: center;
         padding-bottom: 20px;
       }
+    }
+  }
+}
+
+.footer-top {
+  background: #222d37;
+  background-color: #222d37;
+
+  &>tbody>tr>th {
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  th {
+    padding-bottom: 0;
+  }
+
+  .logo_circle {
+    height: 40px;
+    width: 40px;
+  }
+
+  .call-to-action {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .info {
+    display: block;
+    font-size: 12px;
+    font-weight: 900;
+  }
+
+  .info-section>table>tbody>tr>th {
+    color: white;
+    padding-left: 10px;
+  }
+
+  .store-logos {
+    padding-left: 10px !important;
+    padding-right: 25px !important;
+
+    img {
+      display: block;
+      height: 40px;
+      margin: 0 auto;
+    }
+
+    .appstore {
+      width: 120px !important;
+    }
+
+    .playstore {
+      width: 135px !important;
     }
   }
 }
