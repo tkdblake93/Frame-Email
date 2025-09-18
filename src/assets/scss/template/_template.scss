@@ -318,21 +318,43 @@ body,
     }
 
     .playstore {
-      width: 135px !important;
+      // width: 135px !important;
+      width: 120px !important;
     }
   }
 }
 
-.footer {
-  background: black;
-  background-color: black;
+.footer-social {
+  background: #14181c;
+  background-color: #14181c;
 
-  .footer-container {
-    background: black;
-    background-color: black;
+  &>tbody>tr>th {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  a {
-    color: red;
+  th {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .logo-section {
+    // padding-top: 30px;
+    // padding-bottom: 30px;
+    // padding-left: 30px;
+    // padding-right: 30px;
+
+    img {
+      width: 128px;
+    }
+  }
+
+  .social-icons {
+    img {
+      height: 32px;
+      width: 32px;
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
